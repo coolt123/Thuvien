@@ -1,0 +1,57 @@
+﻿@model X.PagedList.IPagedList<ThuvienMvc.Models.Book>
+@using X.PagedList.Extensions;
+@using X.Web.PagedList;
+
+@{
+    ViewData["Title"] = "Danh sách Sách";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Danh sách Sách</h2>
+
+<div class="container">
+    <form action="@Url.Action("Index", "Book")" method="get" class="form-check-inline">
+        <input type="text" name="name" value="@ViewData["SearchName"]" />
+        <button type="submit">Tìm kiếm</button>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Chọn</th>
+                    <th>Ảnh</th>
+                    <th>Tiêu đề</th>
+                    <th>Phụ đề</th>
+                    <th>Tác giả</th>
+                    <th>Năm xuất bản</th>
+                    <th>Thể loại</th>
+                    <th>Chi tiết</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var book in Model)
+                {
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="selectedBooks" value="@book.IdBook" />
+                        </td>
+                        <td>
+                            <img src="@book.Image" alt="@book.Title" style="height: 100px; object-fit: cover;" />
+                        </td>
+                        <td>@book.Title</td>
+                        <td>@book.SubTitle</td>
+                        <td>@book.Author?.NameAuthor</td> 
+                        <td>@book.PublishingYear</td>
+                        <td>@book.Genre?.NameGenres</td> 
+                        <td>
+                            <a href="@Url.Action("Detail", "Book", new { id = book.IdBook })" class="btn btn-info">Xem chi tiết</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </form>
+
+    <div class="page-item">
+        @Html.PagedListPager(Model, page => Url.Action("Index", "Book", new { page = page, name = ViewData["SearchName"] }))
+    </div>
+</div>

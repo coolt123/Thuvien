@@ -1,0 +1,16 @@
+﻿@model ThuvienMvc.Dtos.AuthorDto.CreateAuthorDto;
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<h2>Create</h2>
+<form action="~/author/Create" method="post">
+    <div class="row">
+        <div class="col-md-6">
+            <label for="NameAuthor">NameAuthor</label>
+            <input type="text" class="form-control" id="NameAuthor" name="NameAuthor" placeholder="NameAuthor" value="@Model.NameAuthor" />
+        </div>
+
+    <button type="submit" class="btn btn-success">Create</button>
+     <a asp-controller="Author" asp-action="Index" class="btn btn-danger">Cancel</a>
+</form>

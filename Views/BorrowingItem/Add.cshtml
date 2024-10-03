@@ -1,0 +1,30 @@
+﻿@model IEnumerable<ThuvienMvc.Models.BorrowingItems>
+
+<h1>Borrowing Items</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Borrowing ID</th>
+            <th>Book Title</th>
+            <th>Quantity</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IDitem</td>
+                <td>@item.Book.Title</td>
+                <td>@item.Quantity</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IDitem">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IDitem">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create">Create New</a>

@@ -1,0 +1,50 @@
+﻿@model X.PagedList.IPagedList<ThuvienMvc.Models.Genre>
+@using X.PagedList.Extensions;
+@using X.Web.PagedList;
+@{
+    ViewData["Title"] = "Genres";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+@{
+}
+<h2>Index Genres</h2>
+<div class="container">
+    <form action="~/Genre/Index" method="get" class="form-inline">
+        <div class="form-group">
+            <input type="text" name="name" value="@ViewData["SearchName"]" class="form-control" placeholder="Tìm thể loại..." />
+            <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+        </div>
+    </form>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Thể loại</th>
+
+            </tr>
+        </thead>
+        <a href="~/Genres/Create" class="btn btn-warning"> Thêm </a>
+        <tbody>
+            @foreach (var genre in Model)
+            {
+                <tr>
+
+
+                    <td>@genre.IdGenres</td>
+                    <td>@genre.NameGenres</td>
+                    <td>
+                        <a href="~/genres/Edit/@genre.IdGenres" class="btn btn-warning">Sửa</a>
+                    </td>
+                    <td>
+                        <form action="~/genres/Delete/@genre.IdGenres" method="post" onsubmit="return confirm('Bạn có chắc chắn muốn xóa tác giả này?');">
+                            <button type="submit" class="btn btn-danger">Xóa</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table> 
+    <div class="d-flex justify-content-center">
+        @Html.PagedListPager(Model, page => Url.Action("Index", "Genre", new { page, name = ViewData["SearchName"] }))
+    </div>
+</div>

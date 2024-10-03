@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@{
+}
+<h2>Edit</h2>
+<form action="~/author/Edit/@Model.IdGenres" method="post">
+    <input type="hidden" name="IdGenres" value="@Model.IdGenres" />
+    <div class="row">
+        <div class="col-md-6">
+            <label for="NameGenres"> NameGenres</label>
+            <input type="text"
+                   class="form-control"
+                   id="NameGenres"
+                   name="NameGenres"
+                   placeholder="NameGenres"
+                   value="@Model.NameGenres" />
+        </div>
+    </div>
+    
+
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-controller="Genre" asp-action="Index" class="btn btn-danger">Cancel</a>
+
+</form>
+
+

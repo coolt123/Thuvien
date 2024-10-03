@@ -1,0 +1,73 @@
+﻿@model ThuvienMvc.Dtos.BookDtos.CreateBookDto;
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    
+}
+<h2>Create</h2>
+<form action="~/book/Create" method="post">
+    <div class="row">
+        <div class="col-md-6">
+            <label for="Title">Title</label>
+            <input type="text" class="form-control" id="Title" name="Title" placeholder="Title" " />
+        </div>
+        <div class="col-md-6">
+            <label for="SubTitle">SubTitle</label>
+            <input type="text" class="form-control" id="SubTitle" name="SubTitle" placeholder="SubTitle" " />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label for="Image">Image</label>
+            <input type="text" class="form-control" id="Image" name="Image" placeholder="Image" />
+        </div>
+        <div class="col-md-6">
+            <label for="Description">Description</label>
+            <input type="text" class="form-control" id="Description" name="Description" placeholder="Description"  />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label for="PublishingYear"> PublishingYear</label>
+            <input type="number"
+                   class="form-control"
+                   id="PublishingYear"
+                   name="PublishingYear"
+                   placeholder="PublishingYear"
+                    />
+        </div>
+        <div class="col-md-6">
+            
+            <label for="QuantityInStock"> QuantityInStock</label>
+            <input type="number"
+                   class="form-control"
+                   id="QuantityInStock"
+                   name="QuantityInStock"
+                   placeholder="QuantityInStock"
+                    />
+        </div>
+     </div>
+     <div class="row">
+        <div class="col-md-6">
+           
+            <label>Chọn thể loại :</label>
+            <select asp-for="IdGenres" asp-items="ViewBag.Genres" multiple class="form-control">
+            </select>
+            <span asp-validation-for="IdGenres" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-6">
+            <label>Chọn tác giả :</label>
+            <select asp-for="IdAuthor" asp-items="ViewBag.Author" multiple class="form-control">
+            </select>
+            <span asp-validation-for="IdAuthor" class="text-danger"></span>
+        </div>
+     </div>
+
+    
+    <button type="submit" class="btn btn-success">Create</button>
+    <a asp-controller="Book" asp-action="IndexAdmin" class="btn btn-danger">Cancel</a>
+
+    
+</form>

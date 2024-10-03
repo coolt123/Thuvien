@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "SignUp";
+}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/css/system.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-links1">
+            <a href="~/User/SignIn" class="nav-link1">Login</a>
+            <a href="~/User/SignUp" class="nav-link1">SignUp</a>
+        </div>
+        <form action="~/User/SignUp" method="post">
+            <div class="form-group">
+                <label for="NameUser">Tên người dùng:</label>
+                <input type="text" id="NameUser" name="NameUser" required>
+            </div>
+
+            <div class="form-group">
+                <label for="UserName">Email:</label>
+                <input type="UserName" id="UserName" name="UserName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Mật khẩu:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="confirmPassword">Xác nhận mật khẩu:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
+
+            <button type="submit" class="btn">Đăng Ký</button>
+        </form>
+    </div>
+</body>
+</html>
+

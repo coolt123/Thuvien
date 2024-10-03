@@ -1,0 +1,16 @@
+﻿@model ThuvienMvc.Dtos.GenreDto.CreateGenre;
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<h2>Create</h2>
+<form action="~/genres/Create" method="post">
+    <div class="row">
+        <div class="col-md-6">
+            <label for="NameGenres">NameGenres</label>
+            <input type="text" class="form-control" id="NameGenres" name="NameGenres" placeholder="NameGenres" value="@Model.NameGenres" />
+        </div>
+
+        <button type="submit" class="btn btn-success">Create</button>
+        <a href="~/Index" class="btn btn-danger">Cancel</a>
+</form>

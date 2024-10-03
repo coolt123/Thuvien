@@ -1,0 +1,31 @@
+﻿@model ThuvienMvc.Dtos.BorrowingDtos.CreateBorrowingDto 
+
+@{
+    ViewData["Title"] = "Tạo Mới Bản Ghi Mượn";
+    
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Create" method="post">
+    <input type="hidden" name="IdUser" value="@ViewBag.IdUser" />
+    <div class="form-group">
+        <label asp-for="Startat " class="control-label"></label>
+        <input asp-for="Startat " class="form-control" type="datetime-local" />
+        <span asp-validation-for="Startat " class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Endat " class="control-label"></label>
+        <input asp-for="Endat " class="form-control" type="datetime-local" />
+        <span asp-validation-for="Endat " class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Chọn Sách:</label>
+        <select asp-for="bookIds" asp-items="ViewBag.Sach" multiple class="form-control">
+        </select>
+        <span asp-validation-for="bookIds" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Tạo Mới</button>
+    <a asp-action="Index" class="btn btn-secondary">Trở Về</a>
+</form>

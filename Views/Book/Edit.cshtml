@@ -1,0 +1,96 @@
+﻿@model ThuvienMvc.Models.Book
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@{
+}
+<h2>Edit</h2>
+<form action="~/book/Edit/@Model.IdBook" method="post"> 
+    <input type="hidden" name="IdBook" value="@Model.IdBook" />
+    <div class="row">
+        <div class="col-md-6">
+            <label for="Title"> Title</label>
+            <input type="text"
+                    class="form-control"
+                    id="Title"
+                    name="Title"
+                    placeholder="Title"
+                    value="@Model.Title"/>
+        </div>
+        <div class="col-md-6">
+            <label for="SubTitle"> SubTitle</label>
+            <input type="text"
+                   class="form-control"
+                   id="SubTitle"
+                   name="SubTitle"
+                   placeholder="SubTitle"
+                   value="@Model.SubTitle"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label for="Image"> Image</label>
+            <input type="text"
+                    class="form-control"
+                    id="Image"
+                    name="Image"
+                    placeholder="Image"
+                    value="@Model.Image"/>
+        </div>
+        <div class="col-md-6">`
+            <label for="Description"> Description</label>
+            <input type="text"
+                   class="form-control"
+                   id="Description"
+                   name="Description"
+                   placeholder="Description"
+                   value="@Model.Description"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label for="PublishingYear"> PublishingYear</label>
+            <input type="text"
+                   class="form-control"
+                   id="PublishingYear"
+                   name="PublishingYear"
+                   placeholder="PublishingYear"
+                   value="@Model.PublishingYear" />
+        </div>
+        <div class="col-md-6">
+            `
+            <label for="QuantityInStock"> QuantityInStock</label>
+            <input type="text"
+                   class="form-control"
+                   id="QuantityInStock"
+                   name="QuantityInStock"
+                   placeholder="QuantityInStock"
+                   value="@Model.QuantityInStock" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label for="IdAuthor">Author:</label>
+            <select asp-for="IdAuthor" class="form-control" asp-items="ViewBag.Authors">
+                <option value="">-- Select Author --</option>
+            </select>
+            <span asp-validation-for="IdAuthor" class="text-danger"></span>
+        </div>
+        <div class="col-md-6">
+            <label asp-for="IdGenres">Genre:</label>
+            <select asp-for="IdGenres" class="form-control" asp-items="ViewBag.Genres">
+                <option value="">-- Select Genre --</option>
+            </select>
+            <span asp-validation-for="IdGenres" class="text-danger"></span>
+        </div>
+
+       
+    </div>
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-controller="Book" asp-action="IndexAdmin" class="btn btn-danger">Cancel</a>
+
+</form>
+
+

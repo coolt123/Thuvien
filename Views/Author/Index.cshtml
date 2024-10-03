@@ -1,0 +1,52 @@
+﻿@model X.PagedList.IPagedList<ThuvienMvc.Models.Author>
+@using X.PagedList.Extensions;
+@using X.Web.PagedList;
+
+@{
+    ViewData["Title"] = "Author";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+@{
+}
+<h2>Index author</h2>
+<div class="container">
+    <form action="~/Author/Index" method="get" class="form-inline">
+        <div class="form-group">
+            <input type="text" name="name" value="@ViewData["SearchName"]" class="form-control" placeholder="Tìm tác giả..." />
+            <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+        </div>
+    </form>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Tên tác giả</th>
+                
+            </tr>
+        </thead>
+        <a href="~/Author/Create" class="btn btn-warning"> Thêm </a>
+        <tbody>
+            @foreach (var author in Model)
+            {
+                <tr>
+
+
+                    <td>@author.IdAuthor</td>
+                    <td>@author.NameAuthor</td>
+                    <td>
+                        <a href="~/Author/Edit/@author.IdAuthor" class="btn btn-warning">Sửa</a>
+                    </td>
+                    <td>
+                        <form action="~/author/Delete/@author.IdAuthor" method="post" onsubmit="return confirm('Bạn có chắc chắn muốn xóa tác giả này?');">
+                            <button type="submit" class="btn btn-danger">Xóa</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="d-flex justify-content-center">
+        @Html.PagedListPager(Model, page => Url.Action("Index", "Author", new { page, name = ViewData["SearchName"] }))
+    </div>
+</div>

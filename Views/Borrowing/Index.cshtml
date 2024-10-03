@@ -1,0 +1,60 @@
+﻿@model IEnumerable<ThuvienMvc.Models.Borrowing>
+
+<h2>Danh sách phiếu mượn</h2>
+<a href="~/Borrowing/Create" class="btn btn-warning">Thêm</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Stt</th>
+            <th>Ngày bắt đầu</th>
+            <th>Ngày dự kiến trả</th>
+            <th>Trạng thái </th>
+            <th>Chi tiết mục mượn</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        {
+        @{
+            var index = 1; 
+        }
+        }
+        @foreach (var borrowing in Model)
+        {
+            <tr>
+                <td>@index</td>
+                <td>@borrowing.Startat.ToString("dd/MM/yyyy")</td>
+                <td>@borrowing.Endat.ToString("dd/MM/yyyy")</td>
+                
+      
+                <td>
+                        @if (@borrowing.deleteflag == false)
+                        {
+                        <span>Đang mượn</span>
+                        }
+                        else
+                        {
+                        <span>Đã trả</span>
+                        }
+                </td>
+                <td><a href="~/BorrowingItem/Index?borrowingId=@borrowing.Idbor" class="btn btn-warning">Chi tiết </a></td>
+                <td>
+                       @if (borrowing.deleteflag == false)  
+                    {
+                        <form asp-action="ReturnBook" asp-controller="Borrowing" onsubmit="return confirmReturnBook();" method="post">
+                            <input type="hidden" name="borrowingId" value="@borrowing.Idbor" />
+                            <button type="submit" class="btn btn-danger">Trả sách</button>
+                        </form>
+                    }
+                </td>
+                
+            </tr>
+            index++;
+        }
+    </tbody>
+</table>
+<script type="text/javascript">
+    function confirmReturnBook() {
+        return confirm("Bạn có chắc chắn muốn trả sách này không?");
+    }
+</script>

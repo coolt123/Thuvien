@@ -1,0 +1,49 @@
+﻿
+<h2>Danh sách thẻ mượn</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Stt</th>
+            <th>Tên sách</th>
+            <th>Ngày mượn</th>
+            <th>Ngày trả</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            <tr>
+                <td>@(i + 1)</td> 
+                <td>@Model[i].Book.Title</td>
+                <td>@Model[i].Borrowing.Startat.ToString("dd/MM/yyyy HH:mm")</td>
+                <td>@Model[i].Borrowing.Endat.ToString("dd/MM/yyyy HH:mm")</td>
+                
+
+                <td>
+                    @if (Model[i].Borrowing.deleteflag == true && Model[i].deleteflag == false)
+                    {
+                        <form action="~/Rating/Create" method="post">
+                            <input type="hidden" name="Idbook" value="@Model[i].IdBook" />
+                            <label for="Rating">Đánh giá:</label>
+                            <select name="Rating" class="form-control" required>
+                                <option value="">Chọn đánh giá</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            <button type="submit" class="btn btn-primary mt-1">Gửi đánh giá</button>
+                        </form>
+                    }
+                    @if (Model[i].deleteflag == true)
+                    {
+                        <p>Đã gửi đánh giá</p>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
