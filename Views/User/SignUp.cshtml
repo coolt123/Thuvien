@@ -1,5 +1,6 @@
 ﻿
 @{
+    Layout = null;
     ViewBag.Title = "SignUp";
 }
 <!DOCTYPE html>
@@ -8,7 +9,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title</title>
-    <link rel="stylesheet" href="~/css/system.css">
+    <link rel="stylesheet" href="~/css/system.css" asp-append-version="true">
 </head>
 <body>
     <div class="container">
@@ -23,7 +24,7 @@
             </div>
 
             <div class="form-group">
-                <label for="UserName">Email:</label>
+                <label for="UserName">Username:</label>
                 <input type="UserName" id="UserName" name="UserName" required>
             </div>
 

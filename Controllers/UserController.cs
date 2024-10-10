@@ -2,6 +2,11 @@
 using ThuvienMvc.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
+using ThuvienMvc.Models.Authentications;
+using ThuvienMvc.Models;
+using Azure;
+using Microsoft.EntityFrameworkCore;
+using X.PagedList;
 namespace ThuvienMvc.Controllers
 {
     public class UserController : Controller
@@ -10,6 +15,48 @@ namespace ThuvienMvc.Controllers
         public UserController(IUserService servie)
         {
             _service = servie;
+        }
+
+        [Authentication]
+        public IActionResult Index()
+        {
+            var id = (int)HttpContext.Session.GetInt32("UserId");
+            var user = _service.GetById(id);
+            return View(user);
+        }
+
+        [AuthenAdmin]
+        public IActionResult IndexAdmin(string name , int page = 1)
+        {
+            page = page < 1 ? 1 : page;
+            int pageSize = 7;
+
+
+            IPagedList<User> users = _service.GetPagedUser(name, page, pageSize);
+            ViewData["SearchName"] = name;
+            return View(users);
+        }
+
+
+        [Authentication]
+        public IActionResult Edit()
+        {
+            var id = (int)HttpContext.Session.GetInt32("UserId");
+            var user = _service.GetById(id);
+            return View(user);
+        }
+
+        [HttpPost]
+        [Authentication]
+        public IActionResult Edit(UserDto model)
+        {
+            if (ModelState.IsValid)
+            {
+               
+                _service.Update(model); 
+                return RedirectToAction("Index"); 
+            }
+            return View(model); 
         }
         [HttpGet]
         public IActionResult SignIn()
@@ -47,12 +94,14 @@ namespace ThuvienMvc.Controllers
 
                 HttpContext.Session.SetString("UserRole", "user");
                 HttpContext.Session.SetInt32("UserId", input.IdSign);
+                HttpContext.Session.SetString("UserName" , input.UserName);
                 return RedirectToAction("Index", "Home");
             }
             else if (result == "Admin")
             {
                 HttpContext.Session.SetString("UserRole","admin");
                 HttpContext.Session.SetInt32("UserId", input.IdSign);
+                HttpContext.Session.SetString("UserName", input.UserName);
                 return RedirectToAction("IndexAdmin", "Book");
             }
             else

@@ -138,3 +138,4 @@ D:\ThuvienMvc\ThuvienMvc\obj\Debug\net8.0\refint\ThuvienMvc.dll
 D:\ThuvienMvc\ThuvienMvc\obj\Debug\net8.0\ThuvienMvc.pdb
 D:\ThuvienMvc\ThuvienMvc\obj\Debug\net8.0\ThuvienMvc.genruntimeconfig.cache
 D:\ThuvienMvc\ThuvienMvc\obj\Debug\net8.0\ref\ThuvienMvc.dll
+D:\ThuvienMvc\ThuvienMvc\obj\Debug\net8.0\ThuvienMvc.sourcelink.json

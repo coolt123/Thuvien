@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using ThuvienMvc.Dtos.BorrowingDtos;
 using ThuvienMvc.Models;
 using ThuvienMvc.Services.Interfaces;
+using X.PagedList;
+using X.PagedList.Extensions;
 
 namespace ThuvienMvc.Services.Implements
 {
@@ -31,9 +33,27 @@ namespace ThuvienMvc.Services.Implements
             }).ToList();
         }
 
-       
+        public IPagedList<Borrowing> GetPagedBorrowings(string name, int page, int pageSize)
+        {
+            var borrowing = _context.borrowings.Include(b => b.User).AsQueryable();
+            if (!string.IsNullOrEmpty(name))
+            {
+                borrowing = borrowing.Where(b => b.User.NameUser.Contains(name)); 
+            }
 
-      
+            return borrowing.ToPagedList(page, pageSize);
+        }
+        public List<Borrowing> GetBorrowingsByUserId(int userId)
+        {
+            return _context.borrowings
+                           .Where(e => e.IdUser == userId)
+                           .Include(e => e.BorrowingItems)
+                           .ThenInclude(bi => bi.Book)
+                           .ToList();
+        }
+
+
+
         //kiểm tra xem cuốn sách đấy có tồn tại hay ko
         //var checkBookId = _context.books.Where(e => e.IdBook == input.BookId);
         //if(checkBookId == null)

@@ -11,6 +11,8 @@ using ThuvienMvc.Dtos.AuthorDto;
 using ThuvienMvc.Models.Authentications;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
 
 namespace ThuvienMvc.Controllers
 {
@@ -35,7 +37,7 @@ namespace ThuvienMvc.Controllers
             return View(book);
         }
         */
-        [Authentication]
+
         public ActionResult Index(string name , int page = 1)
         {
             page = page < 1 ? 1 : page;
@@ -131,6 +133,7 @@ namespace ThuvienMvc.Controllers
         }
 
         // POST: Books/Create
+        [Authorize(Roles = "Admin")]
         [AuthenAdmin]
         [HttpPost]
         [AutoValidateAntiforgeryToken]

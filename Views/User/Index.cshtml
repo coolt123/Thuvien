@@ -1,0 +1,35 @@
+﻿@model ThuvienMvc.Models.User
+
+@{
+    ViewData["Title"] = "Thông Tin Người Dùng";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+            <h2 class="mb-4 text-center">@ViewData["Title"]</h2>
+
+            <div class="card">
+                <div class="card-header">
+                    <h4>Chi tiết người dùng</h4>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <strong>Tên:</strong>
+                        <span class="text-muted">@Model.NameUser</span>
+                    </div>
+                    <div class="mb-3">
+                        <strong>Tên đăng nhập:</strong>
+                        <span class="text-muted">@Model.UserName</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4 text-center">
+                <a class="btn btn-primary" asp-controller="User" asp-action="Edit" asp-route-id="@Model.IdUser">
+                    Chỉnh sửa thông tin
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

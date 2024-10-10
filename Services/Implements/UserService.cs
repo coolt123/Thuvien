@@ -3,6 +3,8 @@ using ThuvienMvc.Services.Interfaces;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using ThuvienMvc.Models;
 using Microsoft.EntityFrameworkCore;
+using X.PagedList;
+using X.PagedList.Extensions;
 
 namespace ThuvienMvc.Services.Implements
 {
@@ -32,6 +34,17 @@ namespace ThuvienMvc.Services.Implements
                 return null; 
             }
             return users; 
+        }
+
+        public IPagedList<User> GetPagedUser(string name, int page, int pageSize)
+        {
+            var users = _service.users.AsQueryable();
+            if (!string.IsNullOrEmpty(name))
+            {
+                users = users.Where(e => e.NameUser.Contains(name));
+            }
+
+            return users.ToPagedList(page, pageSize);
         }
 
         public async Task<string> SignIn(SignInUserDto input)
@@ -99,12 +112,13 @@ namespace ThuvienMvc.Services.Implements
                 throw new Exception("");
             }
 
-            users.UserName = input.UserName;
+
             users.Password = input.Password;
             users.NameUser = input.NameUser;
 
           
             _service.users.Update(users);
         }
+
     }
 }

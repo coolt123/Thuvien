@@ -1,31 +1,65 @@
-﻿@model ThuvienMvc.Dtos.BorrowingDtos.CreateBorrowingDto 
+﻿@model ThuvienMvc.Dtos.BorrowingDtos.CreateBorrowingDto
 
 @{
     ViewData["Title"] = "Tạo Mới Bản Ghi Mượn";
-    
+
 }
 
 <h2>@ViewData["Title"]</h2>
 
 <form asp-action="Create" method="post">
     <input type="hidden" name="IdUser" value="@ViewBag.IdUser" />
+
+  
     <div class="form-group">
-        <label asp-for="Startat " class="control-label"></label>
-        <input asp-for="Startat " class="form-control" type="datetime-local" />
-        <span asp-validation-for="Startat " class="text-danger"></span>
+        <label asp-for="Startat" class="control-label"></label>
+        <input asp-for="Startat" class="form-control" type="datetime-local" />
+        <span asp-validation-for="Startat" class="text-danger"></span>
     </div>
+
+   
     <div class="form-group">
-        <label asp-for="Endat " class="control-label"></label>
-        <input asp-for="Endat " class="form-control" type="datetime-local" />
-        <span asp-validation-for="Endat " class="text-danger"></span>
+        <label asp-for="Endat" class="control-label"></label>
+        <input asp-for="Endat" class="form-control" type="datetime-local" />
+        <span asp-validation-for="Endat" class="text-danger"></span>
     </div>
+
+  
+    <div class="form-group">
+        <label>Tìm kiếm sách:</label>
+        <input type="text" id="bookSearch" class="form-control" placeholder="Tìm kiếm sách...">
+    </div>
+
+   
     <div class="form-group">
         <label>Chọn Sách:</label>
-        <select asp-for="bookIds" asp-items="ViewBag.Sach" multiple class="form-control">
+        <select asp-for="bookIds" multiple class="form-control" id="bookSelect">
+            @foreach (var book in ViewBag.Sach)
+            {
+                <option value="@book.IdBook" class="book-option">@book.Title</option>
+            }
         </select>
         <span asp-validation-for="bookIds" class="text-danger"></span>
     </div>
 
+    
     <button type="submit" class="btn btn-primary">Tạo Mới</button>
     <a asp-action="Index" class="btn btn-secondary">Trở Về</a>
 </form>
+
+
+<script>
+    document.getElementById('bookSearch').addEventListener('keyup', function() {
+        var searchValue = this.value.toLowerCase();
+        var options = document.querySelectorAll('#bookSelect .book-option');
+
+        options.forEach(function(option) {
+            var bookTitle = option.textContent.toLowerCase();
+            if (bookTitle.includes(searchValue)) {
+                option.style.display = 'block'; 
+            } else {
+                option.style.display = 'none'; 
+            }
+        });
+    });
+</script>

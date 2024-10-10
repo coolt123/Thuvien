@@ -1,16 +1,17 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿
+
 @{
-    ViewBag.Title = "Login";
+    Layout = null;
+    ViewBag.Title = "SignIn";
 }
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title</title>
-    <link rel="stylesheet" href="~/css/system.css"> 
+    <link rel="stylesheet" href="/css/system.css" asp-append-version="true">
 </head>
 <body>
     <div class="container">
@@ -19,19 +20,47 @@
             <a href="~/User/SignUp" class="nav-link1">SignUp</a>
         </div>
 
-        <form action="~/User/SignIn" method="post">
-            <div class="form-group">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
-            </div>
+        <div class="content">
+            <!-- Phần Form Đăng Nhập -->
+            <div class="login-form">
+                <form action="~/User/SignIn" method="post">
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
 
-            <div class="form-group">
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <div class="password-wrapper">
+                            <input type="password" id="password" name="password" required>
+                            <span class="toggle-password" onclick="togglePassword()">&#128065;</span>
+                        </div>
+                    </div>
 
-            <button type="submit" class="btn">Login</button>
-        </form>
+                    <button type="submit" class="btn">Login</button>
+                </form>
+            </div>
+            
+            <div class="welcome-message">
+                <h2>Chào mừng đến với thư viện ABC</h2>
+                <p>Khám phá kho sách phong phú và dịch vụ tuyệt vời của chúng tôi.</p>
+            </div>
+        </div>
     </div>
+
+    <script>
+        function togglePassword() { 
+            var passwordInput = document.getElementById("password");
+            var toggleIcon = document.querySelector(".toggle-password");
+            if (passwordInput.type === "password") {
+                passwordInput.type = "text";
+                toggleIcon.innerHTML = "&#128065;"; 
+            }
+            else {
+                passwordInput.type = "password";
+                toggleIcon.innerHTML = "&#128065;"; 
+            }
+        }
+    </script>
 </body>
 </html>

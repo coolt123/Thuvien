@@ -9,15 +9,19 @@ using ThuvienMvc.Dtos.BorrowingDtos;
 using ThuvienMvc.Models;
 using ThuvienMvc.Services.Implements;
 using ThuvienMvc.Models.Authentications;
+using ThuvienMvc.Services.Interfaces;
+using X.PagedList;
 
 namespace ThuvienMvc.Controllers
 {
     public class BorrowingController : Controller
     {
         private readonly Data _data;
-        public BorrowingController(Data Data)
+        private readonly IBorrowingService _service; 
+        public BorrowingController(Data Data , IBorrowingService service)
         {
             _data = Data;
+            _service = service;
         }
 
         [Authentication]
@@ -25,15 +29,36 @@ namespace ThuvienMvc.Controllers
         {
             var UserId = HttpContext.Session.GetInt32("UserId");
 
-            var phieumuon = _data.borrowings.Where(e => e.IdUser == UserId).Include(e => e.BorrowingItems).ThenInclude(bi => bi.Book).ToList();
+            if (UserId == null)
+            {
+                return RedirectToAction("SignIn", "User");
+            }
+
+            var phieumuon = _service.GetBorrowingsByUserId((int)UserId);
             return View(phieumuon);
+        }
+        [AuthenAdmin]
+        public IActionResult IndexAdmin(string name, int page = 1)
+        {
+           
+            
+                page = page < 1 ? 1 : page;
+                int pageSize = 7;
+                IPagedList<Borrowing> borrowings = _service.GetPagedBorrowings(name, page, pageSize);
+                ViewData["SearchName"] = name;
+                return View(borrowings);
+            
         }
         [Authentication]
         public IActionResult Create()
         {
             ViewBag.IdUser = HttpContext.Session.GetInt32("UserId");
-            ViewBag.Sach = new SelectList(_data.books.Where(b => b.deleteflag == false), "IdBook", "Title");
+            var books = _data.books.Where(b => b.deleteflag == false).Select(b => new {
+                b.IdBook,
+                b.Title
+            }).ToList();
 
+            ViewBag.Sach = books;
             return View();
         }
 

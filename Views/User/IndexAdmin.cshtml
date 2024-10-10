@@ -1,0 +1,66 @@
+﻿@model X.PagedList.IPagedList<ThuvienMvc.Models.User>
+@using X.PagedList.Extensions;
+@using X.Web.PagedList;
+@{
+    ViewData["Title"] = "Users";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Index User</h2>
+<div class="container">
+    <form action="~/User/IndexAdmin" method="get" class="form-inline">
+        <div class="form-group">
+            <input type="text" name="name" value="@ViewData["SearchName"]" class="form-control" placeholder="Tìm ..." />
+            <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+        </div>
+    </form>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Họ và Tên</th>
+                <th>username</th>
+                <th>Password</th>
+                <th>Hiện/Ẩn mật khẩu</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.IdUser</td>
+                    <td>@user.NameUser</td>
+                    <td>@user.UserName</td>
+                    <td>
+                        <input type="password" value="@user.Password" id="password_@user.IdUser" class="form-control" readonly />
+                    </td>
+                    <td>
+                        <input type="checkbox" onclick="togglePassword('@user.IdUser')" /> Hiện mật khẩu
+                    </td>
+                    <td>
+                        <a href="~/User/Edit/@user.IdUser" class="btn btn-warning">Sửa</a>
+                    </td>
+                    <td>
+                        <form action="~/User/Delete/@user.IdUser" method="post" onsubmit="return confirm('Bạn có chắc chắn muốn xóa người dùng này?');">
+                            <button type="submit" class="btn btn-danger">Xóa</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="d-flex justify-content-center">
+        @Html.PagedListPager(Model, page => Url.Action("IndexAdmin", "User", new { page, name = ViewData["SearchName"] }))
+    </div>
+</div>
+
+<script>
+    function togglePassword(userId) {
+        var passwordField = document.getElementById('password_' + userId);
+        if (passwordField.type === 'password') {
+            passwordField.type = 'text';
+        } else {
+            passwordField.type = 'password';
+        }
+    }
+</script>

@@ -1,60 +1,155 @@
-/* styles.css */
-
-.container {
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 400px;
-}
-
-.nav-links1 {
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.nav-link1 {
-    color: #007bff;
-    font-size: 38px;
-    text-decoration: none;
-}
-
-    .nav-link1:hover {
-        text-decoration: underline;
-    }
-
-.form-group {
-    margin-bottom: 15px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-input[type="text"],
-input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+﻿/* Reset các phần tử cơ bản */
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-button.btn {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-    button.btn:hover {
-        background-color: #0056b3;
+/* Container cho form đăng nhập và welcome message */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    max-width: 90%;
+}
+
+/* Liên kết điều hướng */
+.nav-links1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.nav-link1 {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+    .nav-link1:hover {
+        color: #2980b9;
     }
+
+/* Content section với form đăng nhập và welcome message */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Phần Form Đăng Nhập */
+.login-form {
+    flex: 1 1 300px;
+    margin-right: 20px;
+}
+
+    .login-form form {
+        display: flex;
+        flex-direction: column;
+    }
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 8px;
+        color: #333333;
+        font-weight: bold;
+    }
+
+    .form-group input {
+        width: 100%;
+        padding: 10px 15px;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        font-size: 16px;
+        transition: border-color 0.3s ease;
+    }
+
+        .form-group input:focus {
+            border-color: #3498db;
+            outline: none;
+        }
+
+/* Nút đăng nhập */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .btn:hover {
+        background-color: #2980b9;
+    }
+
+/* Phần Thông Điệp Chào Mừng */
+.welcome-message {
+    flex: 1 1 300px;
+    text-align: center;
+    padding: 20px;
+    background-color: #eaf4fe;
+    border-radius: 8px;
+}
+
+    .welcome-message h2 {
+        color: #3498db;
+        margin-bottom: 15px;
+    }
+
+    .welcome-message p {
+        color: #555555;
+        font-size: 16px;
+    }
+
+/* Điều chỉnh cho thiết bị di động */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .login-form {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .welcome-message {
+        padding: 15px;
+    }
+}
+
+/* Thêm hiệu ứng chuyển động cho biểu tượng toggle password */
+.password-wrapper {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #3498db;
+}
