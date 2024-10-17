@@ -14,6 +14,14 @@
             <button type="submit" class="btn btn-primary">Tìm kiếm</button>
         </div>
     </form>
+    @if (ViewBag.Message != null)
+    {
+        <div class="alert alert-warning">
+            @ViewBag.Message
+        </div>
+    }
+    else
+    {
     <table class="table table-bordered">
         <thead>
             <tr>
@@ -38,7 +46,7 @@
                         <input type="checkbox" onclick="togglePassword('@user.IdUser')" /> Hiện mật khẩu
                     </td>
                     <td>
-                        <a href="~/User/Edit/@user.IdUser" class="btn btn-warning">Sửa</a>
+                        <a asp-action="EditUser" asp-route-id="@user.IdUser" class="btn btn-warning">Sửa</a>
                     </td>
                     <td>
                         <form action="~/User/Delete/@user.IdUser" method="post" onsubmit="return confirm('Bạn có chắc chắn muốn xóa người dùng này?');">
@@ -49,6 +57,7 @@
             }
         </tbody>
     </table>
+    }
     <div class="d-flex justify-content-center">
         @Html.PagedListPager(Model, page => Url.Action("IndexAdmin", "User", new { page, name = ViewData["SearchName"] }))
     </div>

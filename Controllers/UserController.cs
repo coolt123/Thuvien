@@ -7,6 +7,7 @@ using ThuvienMvc.Models;
 using Azure;
 using Microsoft.EntityFrameworkCore;
 using X.PagedList;
+using ThuvienMvc.Services.Implements;
 namespace ThuvienMvc.Controllers
 {
     public class UserController : Controller
@@ -26,6 +27,13 @@ namespace ThuvienMvc.Controllers
         }
 
         [AuthenAdmin]
+        public IActionResult Adminedit()
+        {
+            var id = (int)HttpContext.Session.GetInt32("UserId");
+            var admin = _service.GetAdmin(id);
+            return View(admin);
+        }
+        [AuthenAdmin]
         public IActionResult IndexAdmin(string name , int page = 1)
         {
             page = page < 1 ? 1 : page;
@@ -33,6 +41,10 @@ namespace ThuvienMvc.Controllers
 
 
             IPagedList<User> users = _service.GetPagedUser(name, page, pageSize);
+            if (!string.IsNullOrEmpty(name) && (users == null || !users.Any()))
+            {
+                ViewBag.Message = "Không tồn tại người dùng nào theo kết quả tìm kiếm.";
+            }
             ViewData["SearchName"] = name;
             return View(users);
         }
@@ -58,6 +70,44 @@ namespace ThuvienMvc.Controllers
             }
             return View(model); 
         }
+
+        [HttpPost]
+        [AuthenAdmin]
+        public IActionResult EditAdmin(Admin model)
+        {
+            if (ModelState.IsValid)
+            {
+
+                _service.UpdateAdmin(model);
+                return RedirectToAction("IndexAdmin");
+            }
+            return View(model);
+        }
+
+        [HttpGet]
+        [AuthenAdmin]  
+        public IActionResult EditUser(int id)
+        {
+            var user = _service.GetById(id); 
+            if (user == null)
+            {
+                return NotFound(); 
+            }
+            return View(user); 
+        }
+        [HttpPost]
+        [AuthenAdmin]
+        public IActionResult EditUser(UserDto model)
+        {
+            if (ModelState.IsValid)
+            {
+
+                _service.Update(model);
+                return RedirectToAction("IndexAdmin");
+            }
+            return View(model);
+        }
+
         [HttpGet]
         public IActionResult SignIn()
         {

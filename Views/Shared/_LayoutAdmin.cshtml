@@ -38,7 +38,7 @@
                             @if (Context.Session.GetString("UserRole") != null)
                             {
                                 <li class="nav-item">
-                                    <span class="navbar-text"> <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Index">Xin chào, @Context.Session.GetString("UserName")!</a></span>
+                                    <span class="navbar-text"> <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Adminedit">Xin chào, @Context.Session.GetString("UserName")!</a></span>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Logout">Đăng Xuất</a>

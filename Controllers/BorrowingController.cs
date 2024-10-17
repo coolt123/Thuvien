@@ -11,6 +11,7 @@ using ThuvienMvc.Services.Implements;
 using ThuvienMvc.Models.Authentications;
 using ThuvienMvc.Services.Interfaces;
 using X.PagedList;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace ThuvienMvc.Controllers
 {
@@ -45,10 +46,15 @@ namespace ThuvienMvc.Controllers
                 page = page < 1 ? 1 : page;
                 int pageSize = 7;
                 IPagedList<Borrowing> borrowings = _service.GetPagedBorrowings(name, page, pageSize);
+                if (!string.IsNullOrEmpty(name) && (borrowings == null || !borrowings.Any()))
+                {
+                    ViewBag.Message = "Không tồn tại tác giả nào theo kết quả tìm kiếm.";
+                }
                 ViewData["SearchName"] = name;
                 return View(borrowings);
             
         }
+
         [Authentication]
         public IActionResult Create()
         {
@@ -144,54 +150,80 @@ namespace ThuvienMvc.Controllers
             }
 
 
-            //    if (ModelState.IsValid)
-            //    {
-            //        var borrowing = _data.borrowings.Add(new Borrowing
-            //        {
-            //            ActualEndAt = input.ActualEndAt,
-            //            Startat = input.Startat,
-            //            IdUser = input.IdUser,
-            //            BorrowingItems = input.bookIds.Select(bookId => new BorrowingItems
-            //            {
-            //                IdBook = bookId,
-            //                IdBor = borrowing.Idbor, // ID của borrowing vừa tạo
-            //            }).ToList()
-            //            // Điền các trường thông tin khác vào đây
-            //        }).Entity;
+        //    if (ModelState.IsValid)
+        //    {
+        //        var borrowing = _data.borrowings.Add(new Borrowing
+        //        {
+        //            ActualEndAt = input.ActualEndAt,
+        //            Startat = input.Startat,
+        //            IdUser = input.IdUser,
+        //            BorrowingItems = input.bookIds.Select(bookId => new BorrowingItems
+        //            {
+        //                IdBook = bookId,
+        //                IdBor = borrowing.Idbor, // ID của borrowing vừa tạo
+        //            }).ToList()
+        //            // Điền các trường thông tin khác vào đây
+        //        }).Entity;
 
-            //        //var borrowingItems = input.bookIds.Select(bookId => new BorrowingItems
-            //        //{
-            //        //    IdBook = bookId,
-            //        //    IdBor = borrowing.Idbor, // ID của borrowing vừa tạo
-            //        //}).ToList();
+        //        //var borrowingItems = input.bookIds.Select(bookId => new BorrowingItems
+        //        //{
+        //        //    IdBook = bookId,
+        //        //    IdBor = borrowing.Idbor, // ID của borrowing vừa tạo
+        //        //}).ToList();
 
-            //        //// Thêm BorrowingItems vào ngữ cảnh
-            //        //_data.borrowingItems.AddRange(borrowingItems);
+        //        //// Thêm BorrowingItems vào ngữ cảnh
+        //        //_data.borrowingItems.AddRange(borrowingItems);
 
-            //        // Lưu các thay đổi vào cơ sở dữ liệu
-            //        _data.SaveChanges();
+        //        // Lưu các thay đổi vào cơ sở dữ liệu
+        //        _data.SaveChanges();
 
-            //        return RedirectToAction("Index"); // Chuyển hướng đến phương thức Index hoặc trang khác
-            //    }
+        //        return RedirectToAction("Index"); // Chuyển hướng đến phương thức Index hoặc trang khác
+        //    }
 
-            //    return View(input); // Trả về View với thông tin lỗi nếu Model không hợp lệ
-            //}
-            //public void Add(CreateBorrowingDto input)
-            //{
-            //    var borrowing = _context.borrowings.Add(new Borrowing
-            //    {
-            //        ActualEndAt = input.ActualEndAt,
-            //        Startat = input.Startat,
-            //        //điền các trường thông tin khác vào đây
-            //    }).Entity;
+        //    return View(input); // Trả về View với thông tin lỗi nếu Model không hợp lệ
+        //}
+        //public void Add(CreateBorrowingDto input)
+        //{
+        //    var borrowing = _context.borrowings.Add(new Borrowing
+        //    {
+        //        ActualEndAt = input.ActualEndAt,
+        //        Startat = input.Startat,
+        //        //điền các trường thông tin khác vào đây
+        //    }).Entity;
 
 
-            //    var borrowingItems = input.bookIds.Select(bookId => new BorrowingItems
-            //    {
-            //        IdBook = bookId,
-            //        IdBor = borrowing.Idbor,
-            //    }).ToList();
-            //}
+        //    var borrowingItems = input.bookIds.Select(bookId => new BorrowingItems
+        //    {
+        //        IdBook = bookId,
+        //        IdBor = borrowing.Idbor,
+        //    }).ToList();
+        //}
+        [HttpPost]    
+            public IActionResult delete(int id)
+            {
+                var borrowing = _data.borrowings.SingleOrDefault(a => a.Idbor == id);
+                if (borrowing == null)
+                {
+                    return NotFound();
+                }
+            try
+            {
+               
+                _data.borrowings.Remove(borrowing);
 
+                
+                _data.SaveChanges();
+
+               
+                return RedirectToAction("IndexAdmin");
+            }
+            catch (Exception ex)
+            {
+              
+                ModelState.AddModelError("", "Không thể xóa bản ghi này.");
+                return View(borrowing);
+            }
+            
+            }
         }
     }

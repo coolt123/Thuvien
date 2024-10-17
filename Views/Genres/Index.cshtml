@@ -5,16 +5,23 @@
     ViewData["Title"] = "Genres";
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
-@{
-}
-<h2>Index Genres</h2>
+
+<h2>Danh sách thế loại</h2>
 <div class="container">
-    <form action="~/Genre/Index" method="get" class="form-inline">
+    <form action="~/Genres/Index" method="get" class="form-inline">
         <div class="form-group">
             <input type="text" name="name" value="@ViewData["SearchName"]" class="form-control" placeholder="Tìm thể loại..." />
             <button type="submit" class="btn btn-primary">Tìm kiếm</button>
         </div>
     </form>
+    @if (ViewBag.Message != null)
+    {
+        <div class="alert alert-warning">
+            @ViewBag.Message
+        </div>
+    }
+    else
+    {
     <table class="table table-bordered">
         <thead>
             <tr>
@@ -44,6 +51,7 @@
             }
         </tbody>
     </table> 
+    }
     <div class="d-flex justify-content-center">
         @Html.PagedListPager(Model, page => Url.Action("Index", "Genre", new { page, name = ViewData["SearchName"] }))
     </div>

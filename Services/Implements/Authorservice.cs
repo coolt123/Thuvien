@@ -64,7 +64,9 @@ namespace ThuvienMvc.Services.Implements
             var authors = _service.authors.AsQueryable();
             if (!string.IsNullOrEmpty(name))
             {
-                authors = authors.Where(e => e.NameAuthor.Contains(name));
+                string normalizedInput = $"%{name}%"; // Chuẩn bị chuỗi tìm kiếm
+                authors = authors.Where(e => EF.Functions.Like(
+                    EF.Functions.Collate(e.NameAuthor, "SQL_Latin1_General_CP1_CI_AI"), normalizedInput));
             }
 
             return authors.ToPagedList(page, pageSize);

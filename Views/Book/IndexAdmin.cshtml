@@ -23,7 +23,14 @@
         <a href="~/Book/Create" class="btn btn-warning">Thêm sách</a>
     </div>
 
-   
+    @if (ViewBag.Message != null)
+    {
+        <div class="alert alert-warning">
+            @ViewBag.Message
+        </div>
+    }
+    else
+    {
     <table class="table table-bordered">
         <thead>
             <tr>
@@ -62,6 +69,7 @@
             }
         </tbody>
     </table>
+    }
 
   
     <div class="d-flex justify-content-center">

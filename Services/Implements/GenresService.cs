@@ -88,7 +88,9 @@ namespace ThuvienMvc.Services.Implements
             var genres = _servicce.genres.AsQueryable();
             if (!string.IsNullOrEmpty(name))
             {
-                genres = genres.Where(e => e.NameGenres.Contains(name));
+                string normalizedSearchName = $"%{name}%";
+                genres = genres.Where(e => EF.Functions.Like(
+                    EF.Functions.Collate(e.NameGenres,"SQL_Latin1_Gereraal_Cp1_CI_AI"),normalizedSearchName));
             }
 
             return genres.ToPagedList(page, pageSize);

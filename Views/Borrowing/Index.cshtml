@@ -2,6 +2,14 @@
 
 <h2>Danh sách phiếu mượn</h2>
 <a href="~/Borrowing/Create" class="btn btn-warning">Thêm</a>
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-warning">
+        @ViewBag.Message
+    </div>
+}
+else
+{
 <table class="table">
     <thead>
         <tr>
@@ -53,6 +61,7 @@
         }
     </tbody>
 </table>
+}
 <script type="text/javascript">
     function confirmReturnBook() {
         return confirm("Bạn có chắc chắn muốn trả sách này không?");

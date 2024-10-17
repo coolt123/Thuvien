@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
+using System.ComponentModel;
 using ThuvienMvc.Dtos.BorrowingDtos;
 using ThuvienMvc.Models;
 using ThuvienMvc.Services.Interfaces;
@@ -35,14 +36,30 @@ namespace ThuvienMvc.Services.Implements
 
         public IPagedList<Borrowing> GetPagedBorrowings(string name, int page, int pageSize)
         {
-            var borrowing = _context.borrowings.Include(b => b.User).AsQueryable();
+            IQueryable<Borrowing> borrowing;
+
             if (!string.IsNullOrEmpty(name))
             {
-                borrowing = borrowing.Where(b => b.User.NameUser.Contains(name)); 
+                borrowing = _context.borrowings
+                    .FromSqlRaw(@"SELECT b.Idbor, b.IdUser, b.Startat, b.Endat, b.ActualEndAt, 
+                                 u.NameUser 
+                          FROM Borrowings b 
+                          JOIN Users u ON b.IdUser = u.IdUser
+                          WHERE u.NameUser COLLATE SQL_Latin1_General_CP1_CI_AI LIKE {0}", "%" + name + "%")
+                    .Include(b => b.User)
+                    .AsQueryable();
+            }
+            else
+            {
+                // Nếu không có tên tìm kiếm, lấy tất cả các bản ghi
+                borrowing = _context.borrowings.Include(b => b.User).AsQueryable();
             }
 
             return borrowing.ToPagedList(page, pageSize);
         }
+
+
+
         public List<Borrowing> GetBorrowingsByUserId(int userId)
         {
             return _context.borrowings

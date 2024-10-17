@@ -8,7 +8,7 @@
 }
 @{
 }
-<h2>Index author</h2>
+<h2>Danh sách tác giả </h2>
 <div class="container">
     <form action="~/Author/Index" method="get" class="form-inline">
         <div class="form-group">
@@ -16,7 +16,14 @@
             <button type="submit" class="btn btn-primary">Tìm kiếm</button>
         </div>
     </form>
-
+    @if (ViewBag.Message != null)
+    {
+        <div class="alert alert-warning">
+            @ViewBag.Message
+        </div>
+    }
+     else
+    {
     <table class="table table-bordered">
         <thead>
             <tr>
@@ -46,6 +53,7 @@
             }
         </tbody>
     </table>
+    }
     <div class="d-flex justify-content-center">
         @Html.PagedListPager(Model, page => Url.Action("Index", "Author", new { page, name = ViewData["SearchName"] }))
     </div>

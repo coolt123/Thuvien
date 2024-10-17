@@ -13,7 +13,15 @@
     <form action="@Url.Action("Index", "Book")" method="get" class="form-check-inline">
         <input type="text" name="name" value="@ViewData["SearchName"]" />
         <button type="submit">Tìm kiếm</button>
-
+        @if (ViewBag.Message != null)
+        {
+            <div class="alert alert-warning">
+                @ViewBag.Message
+            </div>
+        }
+        else
+        {
+            
         <table class="table table-bordered">
             <thead>
                 <tr>
@@ -35,7 +43,7 @@
                             <input type="checkbox" name="selectedBooks" value="@book.IdBook" />
                         </td>
                         <td>
-                            <img src="@book.Image" alt="@book.Title" style="height: 100px; object-fit: cover;" />
+                            <img src="@Url.Content("~/image/" + book.Image)" alt="@book.Title" style="height: 100px; object-fit: cover;" />
                         </td>
                         <td>@book.Title</td>
                         <td>@book.SubTitle</td>
@@ -49,6 +57,7 @@
                 }
             </tbody>
         </table>
+        }
     </form>
 
     <div class="page-item">

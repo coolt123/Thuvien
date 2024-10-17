@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\ThuvienMvc\\ThuvienMvc\\wwwroot\\image\\image1.png",
+      "PackagePath": "staticwebassets\\image\\image1.png"
+    },
+    {
+      "Id": "D:\\ThuvienMvc\\ThuvienMvc\\wwwroot\\image\\image22.png",
+      "PackagePath": "staticwebassets\\image\\image22.png"
+    },
+    {
       "Id": "D:\\ThuvienMvc\\ThuvienMvc\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

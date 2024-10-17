@@ -1,7 +1,8 @@
 ﻿using ThuvienMvc.Dtos.UserDtos;
+using ThuvienMvc.Models;
 using ThuvienMvc.Services.Interfaces;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using ThuvienMvc.Models;
+
 using Microsoft.EntityFrameworkCore;
 using X.PagedList;
 using X.PagedList.Extensions;
@@ -26,6 +27,16 @@ namespace ThuvienMvc.Services.Implements
             }
         }
 
+        public Admin GetAdmin(int id)
+        {
+            var admin = _service.admins.SingleOrDefault(a=>a.IdAmin==id);
+            if (admin == null)
+            {
+                return null;
+            }
+            return admin;
+        }
+
         public User GetById(int id)
         {
             var users = _service.users.SingleOrDefault(a=>a.IdUser == id);
@@ -41,7 +52,9 @@ namespace ThuvienMvc.Services.Implements
             var users = _service.users.AsQueryable();
             if (!string.IsNullOrEmpty(name))
             {
-                users = users.Where(e => e.NameUser.Contains(name));
+                string normalizedSearchName = $"%{name}%";
+
+                users = users.Where(e => EF.Functions.Like(EF.Functions.Collate(e.NameUser,"SQL_latin1_Genneral_CP1_CI_AI"),normalizedSearchName));
             }
 
             return users.ToPagedList(page, pageSize);
@@ -118,6 +131,22 @@ namespace ThuvienMvc.Services.Implements
 
           
             _service.users.Update(users);
+        }
+        public void UpdateAdmin(Admin input)
+        {
+            var admin = _service.admins.SingleOrDefault(a => a.IdAmin == input.IdAmin);
+
+            if (admin == null)
+            {
+                throw new Exception("");
+            }
+
+
+            admin.Password = input.Password;
+            admin.NameAdmin = input.NameAdmin;
+
+
+            _service.admins.Update(admin);
         }
 
     }

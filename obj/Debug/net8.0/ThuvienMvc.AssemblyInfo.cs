@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThuvienMvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4108009466488c6a0596f14bf351f5e1c55e5719")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+779b88238ac19c53d027435e4fb3b38b72fb5415")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThuvienMvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThuvienMvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

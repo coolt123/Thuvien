@@ -23,6 +23,10 @@ namespace LibraryMVC.Controllers
 
 
             IPagedList<Author> authors = _context.GetPagedAuthor(name, page, pageSize);
+            if (!string.IsNullOrEmpty(name) && (authors == null || !authors.Any()))
+            {
+                ViewBag.Message = "Không tồn tại tác giả nào theo kết quả tìm kiếm.";
+            }
             ViewData["SearchName"] = name;
             return View(authors);
         }

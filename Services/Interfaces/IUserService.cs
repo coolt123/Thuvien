@@ -10,7 +10,9 @@ namespace ThuvienMvc.Services.Interfaces
         public Task<string> SignIn(SignInUserDto input );
         IPagedList<User> GetPagedUser(string name, int page, int pageSize);
         void Update(UserDto input);
+        void UpdateAdmin(Admin inpput);
         User GetById(int id);
+        Admin GetAdmin(int id );
         void delete(int id);
     }
 }

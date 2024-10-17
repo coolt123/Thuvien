@@ -91,6 +91,7 @@ namespace ThuvienMvc.Services.Implements
             var books = from b in _service.books select b;
             if (!string.IsNullOrEmpty(input))
             {
+
                 books = books.Where(e => e.Title.Contains(input));
             }
             return books.Include(e => e.Author).Include(e => e.Genre).ToPagedList();
@@ -100,14 +101,14 @@ namespace ThuvienMvc.Services.Implements
             var books = _service.books.AsQueryable();
             if (!string.IsNullOrEmpty(input))
             {
-                books = books.Where(e => e.Title.Contains(input));
+                string normalizedSearchName = $"%{input}%";
+                books = books.Where(e => EF.Functions.Like(EF.Functions.Collate(e.Title, "SQL_Latin1_General_CP1_CI_AI"), normalizedSearchName));
             }
 
             books = books
                 .Include(b => b.Author)
                 .Include(b => b.Genre)
                 .OrderBy(b => b.Title);
-
 
             return books.ToPagedList(page, pageSize);
         }

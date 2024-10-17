@@ -3,96 +3,176 @@
   "WorkspaceRootPath": "D:\\ThuvienMvc\\ThuvienMvc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\user\\indexadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\user\\indexadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\controllers\\borrowingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:controllers\\borrowingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\genres\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\genres\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\controllers\\borrowingitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:controllers\\borrowingitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\services\\implements\\borrowingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:services\\implements\\borrowingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\services\\implements\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:services\\implements\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\models\\borrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:models\\borrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\services\\implements\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:services\\implements\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\services\\implements\\genresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:services\\implements\\genresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\services\\interfaces\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:services\\interfaces\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\services\\interfaces\\igenreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:services\\interfaces\\igenreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\user\\indexadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\user\\indexadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\genres\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\genres\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\borrowingitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\borrowingitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\borrowing\\indexadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\borrowing\\indexadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\author\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\author\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\borrowing\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\borrowing\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\borrowing\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\borrowing\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\book\\indexadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\book\\indexadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\author\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\author\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\controllers\\borrowingitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:controllers\\borrowingitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\services\\implements\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:services\\implements\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\services\\implements\\genresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:services\\implements\\genresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\services\\implements\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:services\\implements\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\models\\borrowingitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:models\\borrowingitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\models\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:models\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\author\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\author\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\borrowingitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\borrowingitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\author\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\author\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\services\\interfaces\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:services\\interfaces\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\services\\interfaces\\igenreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:services\\interfaces\\igenreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\user\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\user\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\user\\editadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\user\\editadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\user\\adminedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\user\\adminedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\services\\interfaces\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:services\\interfaces\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\borrowing\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\borrowing\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\borrowingitem\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -103,22 +183,6 @@
       "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\borrowingitem\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\controllers\\borrowingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:controllers\\borrowingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\models\\borrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:models\\borrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\services\\implements\\borrowingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:services\\implements\\borrowingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\borrowing\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\borrowing\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\genres\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\genres\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -127,36 +191,12 @@
       "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:services\\interfaces\\iborrowingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\models\\borrowingitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:models\\borrowingitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\genres\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\genres\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\services\\implements\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:services\\implements\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\author\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\author\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\models\\authentications\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -165,10 +205,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\models\\authentications\\authenadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:models\\authentications\\authenadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -181,10 +217,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\user\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\user\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\wwwroot\\css\\system.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -219,10 +251,6 @@
       "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\services\\implements\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:services\\implements\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\dtos\\bookdtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:dtos\\bookdtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -231,24 +259,12 @@
       "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:dtos\\bookdtos\\updatebookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\services\\interfaces\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:services\\interfaces\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\controllers\\admincontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:controllers\\admincontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\views\\book\\indexadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:views\\book\\indexadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\services\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:services\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\models\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:models\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\dtos\\bookdtos\\createbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -299,10 +315,6 @@
       "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:dtos\\authordto\\authordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|d:\\thuvienmvc\\thuvienmvc\\dtos\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{112DC2E2-E591-4236-9D62-D66425CA5EBD}|ThuvienMvc.csproj|solutionrelative:dtos\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -338,7 +350,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 210,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -351,305 +363,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "BorrowingItemController.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\BorrowingItemController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BorrowingItemController.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\BorrowingItemController.cs",
-              "RelativeToolTip": "Controllers\\BorrowingItemController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:17:03.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Genres\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Genres\\Index.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Genres\\Index.cshtml",
-              "RelativeToolTip": "Views\\Genres\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-03T20:13:43.487Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_LayoutAdmin.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutAdmin.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T08:22:22.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAACAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T08:22:00.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\BookController.cs",
-              "RelativeToolTip": "Controllers\\BookController.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAcwCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:16:14.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IndexAdmin.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\IndexAdmin.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\IndexAdmin.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\IndexAdmin.cshtml",
-              "RelativeToolTip": "Views\\User\\IndexAdmin.cshtml",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-10T16:14:19.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GenresController.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\GenresController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GenresController.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\GenresController.cs",
-              "RelativeToolTip": "Controllers\\GenresController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:17:08.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:17:30.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T07:59:54.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Implements\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\Implements\\UserService.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Implements\\UserService.cs",
-              "RelativeToolTip": "Services\\Implements\\UserService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAIwC4AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:12:28.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RatingController.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\RatingController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RatingController.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\RatingController.cs",
-              "RelativeToolTip": "Controllers\\RatingController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowBMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:17:25.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IUserService.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:12:23.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GenresService.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Implements\\GenresService.cs",
-              "RelativeDocumentMoniker": "Services\\Implements\\GenresService.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Implements\\GenresService.cs",
-              "RelativeToolTip": "Services\\Implements\\GenresService.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAmwF0AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:12:47.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IBookService.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Interfaces\\IBookService.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IBookService.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Interfaces\\IBookService.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IBookService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:12:10.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IGenreservice.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Interfaces\\IGenreservice.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IGenreservice.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Interfaces\\IGenreservice.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IGenreservice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:12:17.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\Edit.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\Edit.cshtml",
-              "RelativeToolTip": "Views\\User\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-10T12:06:35.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\Index.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\Index.cshtml",
-              "RelativeToolTip": "Views\\User\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-10T10:32:31.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IndexAdmin.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Borrowing\\IndexAdmin.cshtml",
-              "RelativeDocumentMoniker": "Views\\Borrowing\\IndexAdmin.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Borrowing\\IndexAdmin.cshtml",
-              "RelativeToolTip": "Views\\Borrowing\\IndexAdmin.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADoAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-10T15:09:22.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Author\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Author\\Index.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Author\\Index.cshtml",
-              "RelativeToolTip": "Views\\Author\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-03T19:57:38.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Author\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Author\\Create.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Author\\Create.cshtml",
-              "RelativeToolTip": "Views\\Author\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T08:21:20.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\BorrowingItem\\Add.cshtml",
-              "RelativeDocumentMoniker": "Views\\BorrowingItem\\Add.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\BorrowingItem\\Add.cshtml",
-              "RelativeToolTip": "Views\\BorrowingItem\\Add.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T23:23:25.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Borrowing.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Borrowing.cs",
-              "RelativeDocumentMoniker": "Models\\Borrowing.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Borrowing.cs",
-              "RelativeToolTip": "Models\\Borrowing.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T07:59:31.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Borrowing\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Borrowing\\Create.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Borrowing\\Create.cshtml",
-              "RelativeToolTip": "Views\\Borrowing\\Create.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-22T16:20:34.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\BorrowingItem\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\BorrowingItem\\Index.cshtml",
@@ -662,98 +375,280 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\BorrowingItem\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\BorrowingItem\\Create.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\BorrowingItem\\Create.cshtml",
-              "RelativeToolTip": "Views\\BorrowingItem\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T22:34:44.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Book\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Book\\Index.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Book\\Index.cshtml",
-              "RelativeToolTip": "Views\\Book\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T08:20:29.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 1,
               "Title": "BorrowingService.cs",
               "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Implements\\BorrowingService.cs",
               "RelativeDocumentMoniker": "Services\\Implements\\BorrowingService.cs",
               "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Implements\\BorrowingService.cs",
               "RelativeToolTip": "Services\\Implements\\BorrowingService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA5wCwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC4AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T06:48:51.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "BorrowingController.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\BorrowingController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BorrowingController.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\BorrowingController.cs",
-              "RelativeToolTip": "Controllers\\BorrowingController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAQwC8AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:16:50.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Genres\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Genres\\Create.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Genres\\Create.cshtml",
-              "RelativeToolTip": "Views\\Genres\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Genres\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Genres\\Index.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Genres\\Index.cshtml",
+              "RelativeToolTip": "Views\\Genres\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T08:21:43.93Z",
+              "WhenOpened": "2024-10-03T20:13:43.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 9,
+              "Title": "IndexAdmin.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Borrowing\\IndexAdmin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Borrowing\\IndexAdmin.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Borrowing\\IndexAdmin.cshtml",
+              "RelativeToolTip": "Views\\Borrowing\\IndexAdmin.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAE4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T15:09:22.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Borrowing\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Borrowing\\Index.cshtml",
               "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Borrowing\\Index.cshtml",
               "RelativeToolTip": "Views\\Borrowing\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-22T16:01:05.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IBorrowingService.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Interfaces\\IBorrowingService.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IBorrowingService.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Interfaces\\IBorrowingService.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IBorrowingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Borrowing.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Borrowing.cs",
+              "RelativeDocumentMoniker": "Models\\Borrowing.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Borrowing.cs",
+              "RelativeToolTip": "Models\\Borrowing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T20:55:06.572Z",
+              "WhenOpened": "2024-09-20T07:59:31.536Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T07:59:54.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BorrowingController.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\BorrowingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BorrowingController.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\BorrowingController.cs",
+              "RelativeToolTip": "Controllers\\BorrowingController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAqwFkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:16:50.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Implements\\BookService.cs",
+              "RelativeDocumentMoniker": "Services\\Implements\\BookService.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Implements\\BookService.cs",
+              "RelativeToolTip": "Services\\Implements\\BookService.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:13:07.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IndexAdmin.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\IndexAdmin.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\IndexAdmin.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\IndexAdmin.cshtml",
+              "RelativeToolTip": "Views\\User\\IndexAdmin.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T16:14:19.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Index.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T10:32:31.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IndexAdmin.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Book\\IndexAdmin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\IndexAdmin.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Book\\IndexAdmin.cshtml",
+              "RelativeToolTip": "Views\\Book\\IndexAdmin.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T08:21:02.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Book\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Index.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Book\\Index.cshtml",
+              "RelativeToolTip": "Views\\Book\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T08:20:29.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Author\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Author\\Index.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Author\\Index.cshtml",
+              "RelativeToolTip": "Views\\Author\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T19:57:38.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA9wC0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:17:30.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Controllers\\BookController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAQwFMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:16:14.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GenresController.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\GenresController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GenresController.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\GenresController.cs",
+              "RelativeToolTip": "Controllers\\GenresController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:17:08.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthorController.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "Controllers\\AuthorController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:15:32.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BorrowingItemController.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\BorrowingItemController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BorrowingItemController.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\BorrowingItemController.cs",
+              "RelativeToolTip": "Controllers\\BorrowingItemController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:17:03.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Implements\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\Implements\\UserService.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Implements\\UserService.cs",
+              "RelativeToolTip": "Services\\Implements\\UserService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:12:28.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GenresService.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Implements\\GenresService.cs",
+              "RelativeDocumentMoniker": "Services\\Implements\\GenresService.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Implements\\GenresService.cs",
+              "RelativeToolTip": "Services\\Implements\\GenresService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAcwFwAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:12:47.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Authorservice.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Implements\\Authorservice.cs",
+              "RelativeDocumentMoniker": "Services\\Implements\\Authorservice.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Implements\\Authorservice.cs",
+              "RelativeToolTip": "Services\\Implements\\Authorservice.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwEAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:13:37.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "BorrowingItems.cs",
               "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\BorrowingItems.cs",
               "RelativeDocumentMoniker": "Models\\BorrowingItems.cs",
@@ -766,319 +661,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Genres\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Genres\\Edit.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Genres\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Genres\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-03T19:56:13.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Implements\\BookService.cs",
-              "RelativeDocumentMoniker": "Services\\Implements\\BookService.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Implements\\BookService.cs",
-              "RelativeToolTip": "Services\\Implements\\BookService.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwEQAAABXAAAAAAAAAA==",
+              "DocumentIndex": 23,
+              "Title": "Data.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Data.cs",
+              "RelativeDocumentMoniker": "Models\\Data.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Data.cs",
+              "RelativeToolTip": "Models\\Data.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAkwIIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:13:07.16Z",
+              "WhenOpened": "2024-09-20T08:01:44.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAowBEAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:03:44.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "AuthorController.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\AuthorController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthorController.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\AuthorController.cs",
-              "RelativeToolTip": "Controllers\\AuthorController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:15:32.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Author.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Author.cs",
-              "RelativeDocumentMoniker": "Models\\Author.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Author.cs",
-              "RelativeToolTip": "Models\\Author.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T07:59:13.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Admin.cs",
-              "RelativeDocumentMoniker": "Models\\Admin.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Admin.cs",
-              "RelativeToolTip": "Models\\Admin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:01:24.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 25,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Author\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Author\\Edit.cshtml",
               "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Author\\Edit.cshtml",
               "RelativeToolTip": "Views\\Author\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-20T08:21:26.675Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Authentication.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Authentications\\Authentication.cs",
-              "RelativeDocumentMoniker": "Models\\Authentications\\Authentication.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Authentications\\Authentication.cs",
-              "RelativeToolTip": "Models\\Authentications\\Authentication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T16:25:02.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "AuthenAdmin.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Authentications\\AuthenAdmin.cs",
-              "RelativeDocumentMoniker": "Models\\Authentications\\AuthenAdmin.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Authentications\\AuthenAdmin.cs",
-              "RelativeToolTip": "Models\\Authentications\\AuthenAdmin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T16:44:00.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAC0AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-07T15:36:13.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T08:26:38.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T08:26:23.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 24,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Book\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Book\\Create.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Book\\Create.cshtml",
-              "RelativeToolTip": "Views\\Book\\Create.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADEAAAALAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Author\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Author\\Create.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Author\\Create.cshtml",
+              "RelativeToolTip": "Views\\Author\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T08:20:44.985Z"
+              "WhenOpened": "2024-09-20T08:21:20.832Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "SignIn.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\SignIn.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\SignIn.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\SignIn.cshtml",
-              "RelativeToolTip": "Views\\User\\SignIn.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-07T09:21:45.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "SignUp.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\SignUp.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\SignUp.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\SignUp.cshtml",
-              "RelativeToolTip": "Views\\User\\SignUp.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-07T09:37:38.264Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "system.css",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\wwwroot\\css\\system.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\system.css",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\wwwroot\\css\\system.css",
-              "RelativeToolTip": "wwwroot\\css\\system.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-20T08:42:43.6Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:06:28.66Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "Genre.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Genre.cs",
-              "RelativeDocumentMoniker": "Models\\Genre.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Genre.cs",
-              "RelativeToolTip": "Models\\Genre.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T07:59:19.563Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:17:18.998Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Book\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Book\\Edit.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Book\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Book\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T08:20:51.671Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "Book.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "Models\\Book.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Book.cs",
-              "RelativeToolTip": "Models\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T07:59:01.952Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Book\\Detail.cshtml",
-              "RelativeDocumentMoniker": "Views\\Book\\Detail.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Book\\Detail.cshtml",
-              "RelativeToolTip": "Views\\Book\\Detail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T16:00:14.83Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "Authorservice.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Implements\\Authorservice.cs",
-              "RelativeDocumentMoniker": "Services\\Implements\\Authorservice.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Implements\\Authorservice.cs",
-              "RelativeToolTip": "Services\\Implements\\Authorservice.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAcwEUAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:13:37.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "UpdateBookDto.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\BookDtos\\UpdateBookDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\BookDtos\\UpdateBookDto.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\BookDtos\\UpdateBookDto.cs",
-              "RelativeToolTip": "Dtos\\BookDtos\\UpdateBookDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:10:34.478Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "BookDto.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\BookDtos\\BookDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\BookDtos\\BookDto.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\BookDtos\\BookDto.cs",
-              "RelativeToolTip": "Dtos\\BookDtos\\BookDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:10:22.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 26,
               "Title": "IAuthorService.cs",
               "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Interfaces\\IAuthorService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IAuthorService.cs",
@@ -1086,203 +708,25 @@
               "RelativeToolTip": "Services\\Interfaces\\IAuthorService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:12:02.406Z"
+              "WhenOpened": "2024-09-20T08:12:02.406Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "AdminController1.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\AdminController1.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController1.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\AdminController1.cs",
-              "RelativeToolTip": "Controllers\\AdminController1.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAcwAQAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 27,
+              "Title": "IGenreservice.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Interfaces\\IGenreservice.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IGenreservice.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Interfaces\\IGenreservice.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IGenreservice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:15:16.389Z"
+              "WhenOpened": "2024-09-20T08:12:17.367Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "IndexAdmin.cshtml",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Book\\IndexAdmin.cshtml",
-              "RelativeDocumentMoniker": "Views\\Book\\IndexAdmin.cshtml",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Book\\IndexAdmin.cshtml",
-              "RelativeToolTip": "Views\\Book\\IndexAdmin.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T08:21:02.961Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "IAdminService.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Interfaces\\IAdminService.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IAdminService.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Interfaces\\IAdminService.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IAdminService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:11:50.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "Data.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Data.cs",
-              "RelativeDocumentMoniker": "Models\\Data.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Data.cs",
-              "RelativeToolTip": "Models\\Data.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAkwFEAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:01:44.895Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "CreateBookDto.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\BookDtos\\CreateBookDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\BookDtos\\CreateBookDto.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\BookDtos\\CreateBookDto.cs",
-              "RelativeToolTip": "Dtos\\BookDtos\\CreateBookDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:10:28.495Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "Rating.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Rating.cs",
-              "RelativeDocumentMoniker": "Models\\Rating.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Rating.cs",
-              "RelativeToolTip": "Models\\Rating.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:00:21.348Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "CRUDbooks.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\CRUDbooks.cs",
-              "RelativeDocumentMoniker": "Models\\CRUDbooks.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\CRUDbooks.cs",
-              "RelativeToolTip": "Models\\CRUDbooks.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:06:22.987Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "CreateBorrowingDto.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\BorrowingDtos\\CreateBorrowingDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\BorrowingDtos\\CreateBorrowingDto.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\BorrowingDtos\\CreateBorrowingDto.cs",
-              "RelativeToolTip": "Dtos\\BorrowingDtos\\CreateBorrowingDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T07:37:30.825Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "CreateRate.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\RateDto\\CreateRate.cs",
-              "RelativeDocumentMoniker": "Dtos\\RateDto\\CreateRate.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\RateDto\\CreateRate.cs",
-              "RelativeToolTip": "Dtos\\RateDto\\CreateRate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T14:49:25.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "CreateBorrowingItemDto.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\BorowingItemDtos\\CreateBorrowingItemDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\BorowingItemDtos\\CreateBorrowingItemDto.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\BorowingItemDtos\\CreateBorrowingItemDto.cs",
-              "RelativeToolTip": "Dtos\\BorowingItemDtos\\CreateBorrowingItemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T07:41:50.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "CreateGenreDto.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\GenreDto\\CreateGenreDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\GenreDto\\CreateGenreDto.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\GenreDto\\CreateGenreDto.cs",
-              "RelativeToolTip": "Dtos\\GenreDto\\CreateGenreDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:10:40.148Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "SignInUserDto.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\UserDtos\\SignInUserDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\UserDtos\\SignInUserDto.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\UserDtos\\SignInUserDto.cs",
-              "RelativeToolTip": "Dtos\\UserDtos\\SignInUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:10:59.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 70,
-              "Title": "20240921042104_Dbinit2.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Migrations\\20240921042104_Dbinit2.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240921042104_Dbinit2.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Migrations\\20240921042104_Dbinit2.cs",
-              "RelativeToolTip": "Migrations\\20240921042104_Dbinit2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T04:21:05.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "CreateUserDto.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\UserDtos\\CreateUserDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\UserDtos\\CreateUserDto.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\UserDtos\\CreateUserDto.cs",
-              "RelativeToolTip": "Dtos\\UserDtos\\CreateUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:10:53.703Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
-              "Title": "GenreDto.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\GenreDto\\GenreDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\GenreDto\\GenreDto.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\GenreDto\\GenreDto.cs",
-              "RelativeToolTip": "Dtos\\GenreDto\\GenreDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:10:44.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 73,
-              "Title": "AuthorDto.cs",
-              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\AuthorDto\\AuthorDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\AuthorDto\\AuthorDto.cs",
-              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\AuthorDto\\AuthorDto.cs",
-              "RelativeToolTip": "Dtos\\AuthorDto\\AuthorDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T08:09:57.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 29,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -1294,7 +738,595 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 31,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Book\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Create.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Book\\Create.cshtml",
+              "RelativeToolTip": "Views\\Book\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T08:20:44.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T08:22:22.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwCAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:03:44.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-07T15:36:13.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:12:23.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Edit.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\Edit.cshtml",
+              "RelativeToolTip": "Views\\User\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T12:06:35.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\EditUser.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\EditUser.cshtml",
+              "RelativeToolTip": "Views\\User\\EditUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T08:01:09.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EditAdmin.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\EditAdmin.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\EditAdmin.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\EditAdmin.cshtml",
+              "RelativeToolTip": "Views\\User\\EditAdmin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-13T16:52:40.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Adminedit.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\Adminedit.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Adminedit.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\Adminedit.cshtml",
+              "RelativeToolTip": "Views\\User\\Adminedit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-13T14:47:36.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RatingController.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\RatingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RatingController.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\RatingController.cs",
+              "RelativeToolTip": "Controllers\\RatingController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowBMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:17:25.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "Models\\Admin.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Admin.cs",
+              "RelativeToolTip": "Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:01:24.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T08:22:00.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Interfaces\\IBookService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IBookService.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Interfaces\\IBookService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IBookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:12:10.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\BorrowingItem\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\BorrowingItem\\Add.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\BorrowingItem\\Add.cshtml",
+              "RelativeToolTip": "Views\\BorrowingItem\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T23:23:25.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Borrowing\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Borrowing\\Create.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Borrowing\\Create.cshtml",
+              "RelativeToolTip": "Views\\Borrowing\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-22T16:20:34.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\BorrowingItem\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\BorrowingItem\\Create.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\BorrowingItem\\Create.cshtml",
+              "RelativeToolTip": "Views\\BorrowingItem\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T22:34:44.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Genres\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Genres\\Create.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Genres\\Create.cshtml",
+              "RelativeToolTip": "Views\\Genres\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T08:21:43.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IBorrowingService.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Interfaces\\IBorrowingService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IBorrowingService.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Interfaces\\IBorrowingService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IBorrowingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T20:55:06.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Genres\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Genres\\Edit.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Genres\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Genres\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T19:56:13.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Author.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "Models\\Author.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Author.cs",
+              "RelativeToolTip": "Models\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T07:59:13.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Authentication.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Authentications\\Authentication.cs",
+              "RelativeDocumentMoniker": "Models\\Authentications\\Authentication.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Authentications\\Authentication.cs",
+              "RelativeToolTip": "Models\\Authentications\\Authentication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T16:25:02.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AuthenAdmin.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Authentications\\AuthenAdmin.cs",
+              "RelativeDocumentMoniker": "Models\\Authentications\\AuthenAdmin.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Authentications\\AuthenAdmin.cs",
+              "RelativeToolTip": "Models\\Authentications\\AuthenAdmin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T16:44:00.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T08:26:38.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T08:26:23.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "SignIn.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\SignIn.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\SignIn.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\SignIn.cshtml",
+              "RelativeToolTip": "Views\\User\\SignIn.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T09:21:45.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\SignUp.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\User\\SignUp.cshtml",
+              "RelativeToolTip": "Views\\User\\SignUp.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T09:37:38.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "system.css",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\wwwroot\\css\\system.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\system.css",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\wwwroot\\css\\system.css",
+              "RelativeToolTip": "wwwroot\\css\\system.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-20T08:42:43.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:06:28.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Genre.cs",
+              "RelativeDocumentMoniker": "Models\\Genre.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Genre.cs",
+              "RelativeToolTip": "Models\\Genre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T07:59:19.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:17:18.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Book\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Edit.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Book\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Book\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T08:20:51.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Models\\Book.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Book.cs",
+              "RelativeToolTip": "Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T07:59:01.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Book\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Detail.cshtml",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Views\\Book\\Detail.cshtml",
+              "RelativeToolTip": "Views\\Book\\Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T16:00:14.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "UpdateBookDto.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\BookDtos\\UpdateBookDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\BookDtos\\UpdateBookDto.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\BookDtos\\UpdateBookDto.cs",
+              "RelativeToolTip": "Dtos\\BookDtos\\UpdateBookDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:10:34.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "BookDto.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\BookDtos\\BookDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\BookDtos\\BookDto.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\BookDtos\\BookDto.cs",
+              "RelativeToolTip": "Dtos\\BookDtos\\BookDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:10:22.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "AdminController1.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\AdminController1.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController1.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Controllers\\AdminController1.cs",
+              "RelativeToolTip": "Controllers\\AdminController1.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAcwAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:15:16.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Interfaces\\IAdminService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAdminService.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Services\\Interfaces\\IAdminService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:11:50.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "CreateBookDto.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\BookDtos\\CreateBookDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\BookDtos\\CreateBookDto.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\BookDtos\\CreateBookDto.cs",
+              "RelativeToolTip": "Dtos\\BookDtos\\CreateBookDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:10:28.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Rating.cs",
+              "RelativeDocumentMoniker": "Models\\Rating.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\Rating.cs",
+              "RelativeToolTip": "Models\\Rating.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:00:21.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "CRUDbooks.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\CRUDbooks.cs",
+              "RelativeDocumentMoniker": "Models\\CRUDbooks.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Models\\CRUDbooks.cs",
+              "RelativeToolTip": "Models\\CRUDbooks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:06:22.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "CreateBorrowingDto.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\BorrowingDtos\\CreateBorrowingDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\BorrowingDtos\\CreateBorrowingDto.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\BorrowingDtos\\CreateBorrowingDto.cs",
+              "RelativeToolTip": "Dtos\\BorrowingDtos\\CreateBorrowingDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T07:37:30.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "CreateRate.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\RateDto\\CreateRate.cs",
+              "RelativeDocumentMoniker": "Dtos\\RateDto\\CreateRate.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\RateDto\\CreateRate.cs",
+              "RelativeToolTip": "Dtos\\RateDto\\CreateRate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T14:49:25.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "CreateBorrowingItemDto.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\BorowingItemDtos\\CreateBorrowingItemDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\BorowingItemDtos\\CreateBorrowingItemDto.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\BorowingItemDtos\\CreateBorrowingItemDto.cs",
+              "RelativeToolTip": "Dtos\\BorowingItemDtos\\CreateBorrowingItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T07:41:50.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "CreateGenreDto.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\GenreDto\\CreateGenreDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\GenreDto\\CreateGenreDto.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\GenreDto\\CreateGenreDto.cs",
+              "RelativeToolTip": "Dtos\\GenreDto\\CreateGenreDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:10:40.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "SignInUserDto.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\UserDtos\\SignInUserDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserDtos\\SignInUserDto.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\UserDtos\\SignInUserDto.cs",
+              "RelativeToolTip": "Dtos\\UserDtos\\SignInUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:10:59.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "20240921042104_Dbinit2.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Migrations\\20240921042104_Dbinit2.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240921042104_Dbinit2.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Migrations\\20240921042104_Dbinit2.cs",
+              "RelativeToolTip": "Migrations\\20240921042104_Dbinit2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T04:21:05.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\UserDtos\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserDtos\\CreateUserDto.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\UserDtos\\CreateUserDto.cs",
+              "RelativeToolTip": "Dtos\\UserDtos\\CreateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:10:53.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "GenreDto.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\GenreDto\\GenreDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\GenreDto\\GenreDto.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\GenreDto\\GenreDto.cs",
+              "RelativeToolTip": "Dtos\\GenreDto\\GenreDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:10:44.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "AuthorDto.cs",
+              "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\AuthorDto\\AuthorDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\AuthorDto\\AuthorDto.cs",
+              "ToolTip": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\AuthorDto\\AuthorDto.cs",
+              "RelativeToolTip": "Dtos\\AuthorDto\\AuthorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T08:09:57.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
               "Title": "20240920201304_Db2.cs",
               "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Migrations\\20240920201304_Db2.cs",
               "RelativeDocumentMoniker": "Migrations\\20240920201304_Db2.cs",
@@ -1306,7 +1338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 78,
               "Title": "UserDto.cs",
               "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\UserDtos\\UserDto.cs",
               "RelativeDocumentMoniker": "Dtos\\UserDtos\\UserDto.cs",
@@ -1318,7 +1350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 79,
               "Title": "UpdateAuthorDto.cs",
               "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\AuthorDto\\UpdateAuthorDto.cs",
               "RelativeDocumentMoniker": "Dtos\\AuthorDto\\UpdateAuthorDto.cs",
@@ -1330,7 +1362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 80,
               "Title": "ThuvienMvc.csproj",
               "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\ThuvienMvc.csproj",
               "RelativeDocumentMoniker": "ThuvienMvc.csproj",
@@ -1342,7 +1374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 81,
               "Title": "UpdateGenreDto.cs",
               "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\GenreDto\\UpdateGenreDto.cs",
               "RelativeDocumentMoniker": "Dtos\\GenreDto\\UpdateGenreDto.cs",
@@ -1354,7 +1386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 82,
               "Title": "CreateAuthorDto.cs",
               "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Dtos\\AuthorDto\\CreateAuthorDto.cs",
               "RelativeDocumentMoniker": "Dtos\\AuthorDto\\CreateAuthorDto.cs",
@@ -1366,7 +1398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 83,
               "Title": "20240920080815_DbInit.cs",
               "DocumentMoniker": "D:\\ThuvienMvc\\ThuvienMvc\\Migrations\\20240920080815_DbInit.cs",
               "RelativeDocumentMoniker": "Migrations\\20240920080815_DbInit.cs",
