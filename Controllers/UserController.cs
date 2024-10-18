@@ -43,7 +43,7 @@ namespace ThuvienMvc.Controllers
             IPagedList<User> users = _service.GetPagedUser(name, page, pageSize);
             if (!string.IsNullOrEmpty(name) && (users == null || !users.Any()))
             {
-                ViewBag.Message = "Không tồn tại người dùng nào theo kết quả tìm kiếm.";
+                ViewBag.Message = "Không tồn tại người dùng nào theo kết quả tìm kiếm.<a href='javascript:history.back()'>Quay lại</a>";
             }
             ViewData["SearchName"] = name;
             return View(users);
@@ -144,19 +144,36 @@ namespace ThuvienMvc.Controllers
 
                 HttpContext.Session.SetString("UserRole", "user");
                 HttpContext.Session.SetInt32("UserId", input.IdSign);
-                HttpContext.Session.SetString("UserName" , input.UserName);
+                HttpContext.Session.SetString("UserName", input.UserName);
                 return RedirectToAction("Index", "Home");
             }
             else if (result == "Admin")
             {
-                HttpContext.Session.SetString("UserRole","admin");
+                HttpContext.Session.SetString("UserRole", "admin");
                 HttpContext.Session.SetInt32("UserId", input.IdSign);
                 HttpContext.Session.SetString("UserName", input.UserName);
                 return RedirectToAction("IndexAdmin", "Book");
             }
+            else if (result == "IncorrectPasswordUser")
+            {
+                ModelState.AddModelError("Password", "Sai mật khẩu. Vui lòng thử lại.");
+                ViewData["UserName"] = input.UserName;
+                return View(input);
+            }
+            else if (result == "IncorrectPasswordAdmin")
+            {
+                ModelState.AddModelError("Password", "Sai mật khẩu của quản trị viên. Vui lòng thử lại.");
+                ViewData["UserName"] = input.UserName;
+                return View(input);
+            }
+            else if (result == "InvalidUsername")
+            {
+                ModelState.AddModelError(string.Empty, "Tên đăng nhập không tồn tại.");
+                return View(input);
+            }
             else
             {
-                
+
                 ModelState.AddModelError(string.Empty, "Invalid username or password.");
                 return View(input);
             }

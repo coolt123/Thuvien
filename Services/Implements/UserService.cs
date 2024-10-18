@@ -64,30 +64,44 @@ namespace ThuvienMvc.Services.Implements
         {
 
             var user = await _service.users
-            .Where(e => e.UserName == input.UserName && e.Password == input.Password)
-            .Select(e => new { e.IdUser })
+            .Where(e => e.UserName == input.UserName )
+            .Select(e => new { e.IdUser , e.Password })
             .FirstOrDefaultAsync();
 
 
             var admin = await _service.admins
-            .Where(e => e.AdminName == input.UserName && e.Password == input.Password)
-            .Select(e => new { e.IdAmin })
+            .Where(e => e.AdminName == input.UserName )
+            .Select(e => new { e.IdAmin , e.Password })
             .FirstOrDefaultAsync();
 
             if (user != null)
             {
-                input.IdSign = user.IdUser;
-                return "User";
+                if (user.Password == input.Password)
+                {
+                    input.IdSign = user.IdUser;
+                    return "User";
+                }
+                else
+                {
+                    return "IncorrectPasswordUser"; 
+                }
             }
             else if (admin != null)
             {
-                 input.IdSign = admin.IdAmin ;
-                return "Admin";
+                if (admin.Password == input.Password)
+                {
+                    input.IdSign = admin.IdAmin;
+                    return "Admin";
+                }
+                else
+                {
+                    return "IncorrectPasswordAdmin";
+                }
             }
             else
             {
                 
-                return "Invalid username or password.";
+                return "InvalidUsername";
             }
 
         }

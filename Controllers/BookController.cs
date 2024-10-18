@@ -47,7 +47,7 @@ namespace ThuvienMvc.Controllers
             IPagedList<Book> books = _context.GetPagedBooks(name,page, pageSize);
             if (!string.IsNullOrEmpty(name) && (books == null || !books.Any()))
             {
-                ViewBag.Message = "Không tồn tại sách nào theo kết quả tìm kiếm.";
+                ViewBag.Message = "Không tồn tại sách nào theo kết quả tìm kiếm .<a href='javascript:history.back()'>Quay lại</a>";
             }
             ViewData["SearchName"] = name;
             return View(books); 

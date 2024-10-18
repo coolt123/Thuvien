@@ -27,7 +27,7 @@ namespace ThuvienMvc.Controllers
             IPagedList<Genre> genres = _context.GetPagedGenres(name, page, pageSize);
             if (!string.IsNullOrEmpty(name) && (genres == null || !genres.Any()))
             {
-                ViewBag.Message = "Không tồn tại thể loại nào theo kết quả tìm kiếm.";
+                ViewBag.Message = "Không tồn tại thể loại nào theo kết quả tìm kiếm.<a href='javascript:history.back()'>Quay lại</a>";
             }
             ViewData["SearchName"] = name;
             return View(genres);

@@ -51,7 +51,7 @@ namespace ThuvienMvc.Services.Implements
             }
             else
             {
-                // Nếu không có tên tìm kiếm, lấy tất cả các bản ghi
+                
                 borrowing = _context.borrowings.Include(b => b.User).AsQueryable();
             }
 

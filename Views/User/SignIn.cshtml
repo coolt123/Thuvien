@@ -26,7 +26,8 @@
                 <form action="~/User/SignIn" method="post">
                     <div class="form-group">
                         <label for="username">Username:</label>
-                        <input type="text" id="username" name="username" required>
+                        <input type="text" id="username" name="username" value="@ViewData["UserName"]" required>
+
                     </div>
 
                     <div class="form-group">
@@ -35,12 +36,21 @@
                             <input type="password" id="password" name="password" required>
                             <span class="toggle-password" onclick="togglePassword()">&#128065;</span>
                         </div>
+                        @if (ViewData.ModelState["Password"] != null && ViewData.ModelState["Password"].Errors.Count > 0)
+                        {
+                            <div class="text-danger">
+                                @foreach (var error in ViewData.ModelState["Password"].Errors)
+                                {
+                                    <p>@error.ErrorMessage</p>
+                                }
+                            </div>
+                        }
                     </div>
 
                     <button type="submit" class="btn">Login</button>
                 </form>
             </div>
-            
+
             <div class="welcome-message">
                 <h2>Chào mừng đến với thư viện ABC</h2>
                 <p>Khám phá kho sách phong phú và dịch vụ tuyệt vời của chúng tôi.</p>
@@ -48,17 +58,17 @@
         </div>
     </div>
 
+ 
     <script>
-        function togglePassword() { 
+        function togglePassword() {
             var passwordInput = document.getElementById("password");
             var toggleIcon = document.querySelector(".toggle-password");
             if (passwordInput.type === "password") {
                 passwordInput.type = "text";
-                toggleIcon.innerHTML = "&#128065;"; 
-            }
-            else {
+                toggleIcon.innerHTML = "&#128065;"; // Biểu tượng mắt mở
+            } else {
                 passwordInput.type = "password";
-                toggleIcon.innerHTML = "&#128065;"; 
+                toggleIcon.innerHTML = "&#128065;"; // Biểu tượng mắt đóng
             }
         }
     </script>

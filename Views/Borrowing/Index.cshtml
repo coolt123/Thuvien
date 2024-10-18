@@ -5,7 +5,7 @@
 @if (ViewBag.Message != null)
 {
     <div class="alert alert-warning">
-        @ViewBag.Message
+        @Html.Raw(ViewBag.Message)
     </div>
 }
 else
