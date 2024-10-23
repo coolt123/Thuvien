@@ -47,6 +47,7 @@ else
                 </td>
                 <td><a href="~/BorrowingItem/Index?borrowingId=@borrowing.Idbor" class="btn btn-warning">Chi tiết </a></td>
                 <td>
+                        <a href="~/Borrowing/Edit/@borrowing.Idbor" class="btn btn-primary">Chỉnh sửa</a>
                        @if (borrowing.deleteflag == false)  
                     {
                         <form asp-action="ReturnBook" asp-controller="Borrowing" onsubmit="return confirmReturnBook();" method="post">

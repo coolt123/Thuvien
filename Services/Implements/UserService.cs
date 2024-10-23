@@ -27,6 +27,9 @@ namespace ThuvienMvc.Services.Implements
             }
         }
 
+          
+
+
         public Admin GetAdmin(int id)
         {
             var admin = _service.admins.SingleOrDefault(a=>a.IdAmin==id);
@@ -162,6 +165,7 @@ namespace ThuvienMvc.Services.Implements
 
             _service.admins.Update(admin);
         }
+
 
     }
 }

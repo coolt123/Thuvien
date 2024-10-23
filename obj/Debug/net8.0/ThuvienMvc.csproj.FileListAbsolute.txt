@@ -139,3 +139,6 @@ D:\ThuvienMvc\ThuvienMvc\obj\Debug\net8.0\ThuvienMvc.pdb
 D:\ThuvienMvc\ThuvienMvc\obj\Debug\net8.0\ThuvienMvc.genruntimeconfig.cache
 D:\ThuvienMvc\ThuvienMvc\obj\Debug\net8.0\ref\ThuvienMvc.dll
 D:\ThuvienMvc\ThuvienMvc\obj\Debug\net8.0\ThuvienMvc.sourcelink.json
+D:\ThuvienMvc\ThuvienMvc\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\ThuvienMvc\ThuvienMvc\bin\Debug\net8.0\SendGrid.dll
+D:\ThuvienMvc\ThuvienMvc\bin\Debug\net8.0\StarkbankEcdsa.dll

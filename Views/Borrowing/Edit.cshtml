@@ -1,0 +1,44 @@
+﻿@model ThuvienMvc.Dtos.BorrowingDtos.EditBorrowingDto
+
+@{
+    ViewBag.Title = "Chỉnh sửa thẻ mượn";
+}
+
+<h2>Chỉnh sửa thẻ mượn</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Idbor" />
+
+    <div class="form-group">
+        <label asp-for="Startat" class="control-label">Ngày mượn</label>
+        <input asp-for="Startat" class="form-control" type="date" />
+        <span asp-validation-for="Startat" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Endat" class="control-label">Ngày dự kiến trả</label>
+        <input asp-for="Endat" class="form-control" type="date" />
+        <span asp-validation-for="Endat" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ActualEndAt" class="control-label">Ngày trả thực tế (nếu có)</label>
+        <input asp-for="ActualEndAt" class="form-control" type="date" />
+        <span asp-validation-for="ActualEndAt" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label">Chọn sách</label>
+        <select asp-for="bookIds" class="form-control" multiple="multiple" asp-items="@(new SelectList(ViewBag.Sach, "IdBook", "Title", Model.bookIds))"></select>
+        <span asp-validation-for="bookIds" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+        <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

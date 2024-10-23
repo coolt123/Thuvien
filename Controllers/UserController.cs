@@ -216,6 +216,13 @@ namespace ThuvienMvc.Controllers
             return RedirectToAction("SignIn");
         }
 
+        [HttpGet]
+        public IActionResult GenerateOTP()
+        {
+            return View();
+        }
+
+        
 
     }
 }

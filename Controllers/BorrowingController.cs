@@ -112,26 +112,124 @@ namespace ThuvienMvc.Controllers
 
 
         }
-            //var borrowingItems = input.bookIds.Select(bookId => new BorrowingItems
-            //{
-            //    IdBook = bookId,
-            //    Quantity = 1,               
-            //    Createdat = DateTime.Now,
-            //    Updatedat = DateTime.Now,
-            //    deleteflag = false,
-            //    IdBor = borrowing.Idbor
-            //}).ToList();
+        [Authentication]
+        public IActionResult Edit(int id)
+        {
+            // Lấy thông tin borrowing từ database
+            var borrowing = _data.borrowings.FirstOrDefault(b => b.Idbor == id && b.deleteflag == false);
+            if (borrowing == null)
+            {
+                return NotFound(); // Trả về lỗi nếu không tìm thấy borrowing
+            }
+
+            // Lấy danh sách các sách đã được mượn
+            var borrowingItems = _data.borrowingItems
+                .Where(bi => bi.IdBor == borrowing.Idbor && bi.deleteflag == false)
+                .Select(bi => bi.IdBook)
+                .ToList();
+
+            // Lấy danh sách tất cả các sách chưa bị xoá
+            var books = _data.books
+                .Where(b => b.deleteflag == false)
+                .Select(b => new {
+                    b.IdBook,
+                    b.Title
+                }).ToList();
+
+            // Khởi tạo ViewBag.Sach
+            ViewBag.Sach = books; // Bạn không cần khởi tạo lại SelectList ở đây
+
+            // Khởi tạo model để truyền vào view
+            var borrowingDto = new EditBorrowingDto
+            {
+                Idbor = borrowing.Idbor,
+                Startat = borrowing.Startat,
+                Endat = borrowing.Endat,
+                ActualEndAt = borrowing.ActualEndAt,
+                bookIds = borrowingItems // Truyền các sách đã được chọn
+            };
+
+            return View(borrowingDto); // Trả về view với model
+        }
 
 
-            //_data.borrowingItems.AddRange(borrowingItems);
-            //_data.SaveChanges(); 
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(int id, [Bind("Idbor,Startat,Endat,ActualEndAt,bookIds")] EditBorrowingDto input)
+        {
+            if (ModelState.IsValid)
+            {
+                var borrowing = _data.borrowings.FirstOrDefault(b => b.Idbor == id && b.deleteflag == false);
+
+                if (borrowing == null)
+                {
+                    return NotFound();
+                }
+
+                // Cập nhật thông tin Borrowing
+                borrowing.Startat = input.Startat;
+                borrowing.Endat = input.Endat;
+                borrowing.ActualEndAt = input.ActualEndAt;
+                borrowing.Updatedat = DateTime.Now;
+
+                _data.borrowings.Update(borrowing);
+
+                // Xóa các BorrowingItems cũ
+                var oldItems = _data.borrowingItems.Where(bi => bi.IdBor == borrowing.Idbor).ToList();
+                if (oldItems.Any())
+                {
+                    _data.borrowingItems.RemoveRange(oldItems); // Xóa hẳn các mục cũ
+                }
+
+                // Thêm các BorrowingItems mới
+                if (input.bookIds != null && input.bookIds.Any())
+                {
+                    var newItems = input.bookIds.Select(bookId => new BorrowingItems
+                    {
+                        IdBook = bookId,
+                        IdBor = borrowing.Idbor,
+                        Quantity = 1,
+                        Createdat = DateTime.Now,
+                        Updatedat = DateTime.Now,
+                        deleteflag = false
+                    }).ToList();
+
+                    _data.borrowingItems.AddRange(newItems);
+                }
+
+                _data.SaveChanges();
+                return RedirectToAction("Index");
+            }
+
+            ViewBag.IdUser = HttpContext.Session.GetInt32("UserId");
+
+            ViewBag.Sach = new SelectList(_data.books.Where(b => b.deleteflag == false), "IdBook", "Title");
+            return View(input);
+        }
+
+
+        //var borrowingItems = input.bookIds.Select(bookId => new BorrowingItems
+        //{
+        //    IdBook = bookId,
+        //    Quantity = 1,               
+        //    Createdat = DateTime.Now,
+        //    Updatedat = DateTime.Now,
+        //    deleteflag = false,
+        //    IdBor = borrowing.Idbor
+        //}).ToList();
+
+
+        //_data.borrowingItems.AddRange(borrowingItems);
+        //_data.SaveChanges(); 
 
 
 
 
 
 
-            [Authentication]
+        [Authentication]
             [HttpPost]
             public IActionResult ReturnBook(int borrowingId)
             {
